@@ -1,0 +1,6 @@
+#Function to return volume of a sphere
+radius=int(input("Enter Radius: "))
+def Volume(radius):
+   Volume =(4/3)*(22/7)*radius*radius*radius
+   return Volume
+print(Volume(radius))
